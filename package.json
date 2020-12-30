@@ -12,7 +12,7 @@
         "dist/wire_replace.js"
     ],
     "scripts": {
-        "build": "npx mix",
+        "build": "npx mix --production",
         "prepublishOnly": "npm run-script build"
     },
     "keywords": [
