@@ -68,7 +68,7 @@ Simply include the JS file in your layout (**after Livewire's scripts**) and the
 ```html
 @livewireScripts
 
-<script src="https://unpkg.com/@leanadmin/wire-replace@0.1.0/"></script>
+<script src="https://unpkg.com/@leanadmin/wire-replace@0.1.2/dist/wire_replace.js"></script>
 ```
 
 ## Performance
