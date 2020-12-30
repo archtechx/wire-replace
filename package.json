@@ -1,6 +1,6 @@
 {
     "name": "@leanadmin/wire-replace",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "wire:replace directive for Livewire",
     "main": "index.js",
     "repository": {
@@ -13,7 +13,7 @@
     ],
     "scripts": {
         "build": "npx mix",
-        "prepublishOnly": "npm build"
+        "prepublishOnly": "npm run-script build"
     },
     "keywords": [
         "livewire"
