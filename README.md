@@ -24,11 +24,11 @@ But:
 - it's ugly
 - it won't work in situations where you display template that you don't have control over (translated templates, rich text added by users, ...)
 
+A better solution is to have a directive that tells Livewire to **always** replace the element. Sort of like an opposite to `wire:ignore`.
+
 ## Usage
 
 This package adds two extremely simple directives: `wire:replace` and `wire:replace.self`. Simply use them on elements that you want fully replaced.
-
-You can think if this directive as the opposite of `wire:ignore`. `wire:ignore` tells Livewire to **never** replace the element, and `wire:replace` tells Livewire to **always** replace the elemenet.
 
 To tell Livewire that the element's children should always be replaced:
 ```html
@@ -51,7 +51,7 @@ To tell Livewire that **the element itself plus its children** should always be 
 ### npm dependency
 Install the package:
 ```
-npm install --dev leanadmin@wire-replace
+npm install --dev @leanadmin/wire-replace
 ```
 
 Register the directive in your `app.js` file:
@@ -68,7 +68,7 @@ Simply include the JS file in your layout (**after Livewire's scripts**) and the
 ```html
 @livewireScripts
 
-<script src="https://unpkg.com/@leanadmin/wire-replace@0.1.0/"></script>
+<script src="https://unpkg.com/@leanadmin/wire-replace@0.1.2/dist/wire_replace.js"></script>
 ```
 
 ## Performance
