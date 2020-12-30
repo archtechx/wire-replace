@@ -1,6 +1,6 @@
 {
     "name": "@leanadmin/wire-replace",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "wire:replace directive for Livewire",
     "main": "index.js",
     "repository": {
