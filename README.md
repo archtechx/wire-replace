@@ -51,7 +51,7 @@ To tell Livewire that **the element itself plus its children** should always be 
 ### npm dependency
 Install the package:
 ```
-npm install --dev leanadmin@wire-replace
+npm install --dev @leanadmin/wire-replace
 ```
 
 Register the directive in your `app.js` file:
