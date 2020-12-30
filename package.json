@@ -27,9 +27,5 @@
     "devDependencies": {
         "laravel-mix": "^6.0.6",
         "postcss": "^8.2.2"
-    },
-    "dependencies": {
-        "json": "^10.0.0",
-        "node-jq": "^1.11.3"
     }
 }
