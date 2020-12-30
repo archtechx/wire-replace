@@ -24,11 +24,11 @@ But:
 - it's ugly
 - it won't work in situations where you display template that you don't have control over (translated templates, rich text added by users, ...)
 
+A better solution is to have a directive that tells Livewire to **always** replace the element. Sort of like an opposite to `wire:ignore`.
+
 ## Usage
 
 This package adds two extremely simple directives: `wire:replace` and `wire:replace.self`. Simply use them on elements that you want fully replaced.
-
-You can think if this directive as the opposite of `wire:ignore`. `wire:ignore` tells Livewire to **never** replace the element, and `wire:replace` tells Livewire to **always** replace the elemenet.
 
 To tell Livewire that the element's children should always be replaced:
 ```html
