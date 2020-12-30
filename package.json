@@ -1,0 +1,35 @@
+{
+    "name": "@leanadmin/wire-replace",
+    "version": "0.1.0",
+    "description": "wire:replace directive for Livewire",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LeanAdmin/wire-replace.git"
+    },
+    "files": [
+        "index.js",
+        "dist/wire_replace.js"
+    ],
+    "scripts": {
+        "build": "npx mix",
+        "prepublishOnly": "npm build"
+    },
+    "keywords": [
+        "livewire"
+    ],
+    "author": "Samuel Štancl <samuel.stancl@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LeanAdmin/wire-replace/issues"
+    },
+    "homepage": "https://github.com/LeanAdmin/wire-replace#readme",
+    "devDependencies": {
+        "laravel-mix": "^6.0.6",
+        "postcss": "^8.2.2"
+    },
+    "dependencies": {
+        "json": "^10.0.0",
+        "node-jq": "^1.11.3"
+    }
+}
